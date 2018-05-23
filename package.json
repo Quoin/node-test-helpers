@@ -1,12 +1,13 @@
 {
   "name": "@quoin/node-test-helpers",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Test helpers library for nodeJS",
   "main": "lib/index.js",
   "engines": {
     "node": ">=6.9.0"
   },
   "scripts": {
+    "prepublish": "npm run -s lint && npm test",
     "lint:node": "eslint --fix --ignore-pattern=\"*.test.js\" lib",
     "lint:test": "eslint --fix --config=.eslintrc.test.json \"lib/**/*.test.js\"",
     "lint": "npm run -s lint:node && npm run -s lint:test",
@@ -35,33 +36,24 @@
   },
   "homepage": "https://github.com/Quoin/node-test-helpers#readme",
   "dependencies": {
-    "chai": "4.1.2",
-    "chai-as-promised": "7.1.1",
-    "chai-http": "3.0.0",
-    "chai-immutable": "next",
-    "dirty-chai": "2.0.1",
-    "immutable": "3.8.2",
-    "lodash": "4.17.4",
-    "node-mocks-http": "1.6.5",
-    "proxyquire": "1.8.0",
-    "rewire": "2.5.2",
-    "sinon": "4.0.1",
-    "sinon-chai": "2.14.0"
-  },
-  "peerDependencies": {
-    "mocha": ">=4.0.0"
+    "chai-http": "4.0.x",
+    "dirty-chai": "2.0.x",
+    "sinon-chai": "3.1.x"
   },
   "devDependencies": {
-    "@quoin/eslint-config-quoin": "0.2.0",
-    "eslint": "4.8.0",
-    "eslint-config-standard": "10.2.1",
-    "eslint-plugin-html": "3.2.2",
-    "eslint-plugin-import": "2.7.0",
-    "eslint-plugin-json": "1.2.0",
-    "eslint-plugin-node": "5.2.0",
-    "eslint-plugin-promise": "3.5.0",
-    "eslint-plugin-standard": "3.0.1",
-    "mocha": "4.0.1",
-    "nyc": "11.2.1"
+    "@quoin/eslint-config-quoin": "latest",
+    "@quoin/node-test-helpers-core": "1.0.x",
+    "chai": "4.1.x",
+    "eslint": "4.19.x",
+    "eslint-config-standard": "11.0.x",
+    "eslint-plugin-html": "4.0.x",
+    "eslint-plugin-import": "2.12.x",
+    "eslint-plugin-json": "1.2.x",
+    "eslint-plugin-node": "6.0.x",
+    "eslint-plugin-promise": "3.7.x",
+    "eslint-plugin-standard": "3.1.x",
+    "mocha": "5.2.x",
+    "nyc": "11.8.x",
+    "sinon": "4.5.x"
   }
 }

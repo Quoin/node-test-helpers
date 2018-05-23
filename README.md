@@ -2,8 +2,7 @@
 
 [![Build Status](https://travis-ci.org/Quoin/node-test-helpers.svg?branch=master)](https://travis-ci.org/Quoin/node-test-helpers)
 
-This is a helper library to limit the number of packages to install in your
-project.
+This is an extension of [node-test-helpers-core](https://www.npmjs.com/package/@quoin/node-test-helpers-core) that adds chai plugins for projects.
 
 ## To install
 
@@ -32,41 +31,4 @@ refer to their respective documentation.
 
 ## Examples
 
-### createMocks, createRequest and createResponse
-
-See [node-mocks-http](https://github.com/howardabrams/node-mocks-http) for more
-details.
-
-    it("should set headers", () => {
-      const {req, res} = testHelpers.createMocks();
-    });
-
-### verifyHal
-
-To verify that a portion of a response (or the entire reponse is a valid HAL:
-
-    it("should be a valid HAL", () => {
-        const someResponseFromServer = requestCall();
-        testHelpers.verifyHal(someResponseFromServer.body);
-    });
-
-### verifyProperties
-
-To verify all properties of an object:
-
-    it("should expose known properties", () => {
-      const clone = _.clone(moduleToTest);
-
-      testHelpers.verifyProperties(clone, 'string', [
-        'prop1',
-        'prop2'
-      ]);
-
-      testHelpers.verifyProperties(clone, 'function', [
-        'prop3',
-        'prop4'
-      ]);
-
-      expect(clone).to.deep.equal({});
-    });
-
+See [node-test-helpers-core's README](https://github.com/Quoin/node-test-helpers-core/blob/master/README.md) for some examples.
