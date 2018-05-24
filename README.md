@@ -1,6 +1,6 @@
 # node-test-helpers
 
-[![Build Status](https://travis-ci.org/Quoin/node-test-helpers.svg?branch=master)](https://travis-ci.org/Quoin/node-test-helpers)
+[![Build Status](https://travis-ci.com/Quoin/node-test-helpers.svg?branch=master)](https://travis-ci.com/Quoin/node-test-helpers)
 
 This is an extension of [node-test-helpers-core](https://www.npmjs.com/package/@quoin/node-test-helpers-core) that adds chai plugins for projects.
 
