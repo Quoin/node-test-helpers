@@ -1,10 +1,14 @@
 # Releases
 
-## 1.0.1 - 2018-05-25
+## 1.0.2 - 2018-05-25
+
+- Moved `@quoin/node-test-helpers-core` to `dependencies`.
+
+## 1.0.1 - 2018-05-25 - broken
 
 - Moved `chai` to `dependencies`.
 
-## 1.0.0 - 2018-05-23
+## 1.0.0 - 2018-05-23 - broken
 
 - Updated to use `@quoin/node-test-helpers-core`.
 
