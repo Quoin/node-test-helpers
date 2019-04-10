@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.3 - 2019-04-10
+
+- Update node version requirement.
+
 ## 1.0.2 - 2018-05-25
 
 - Moved `@quoin/node-test-helpers-core` to `dependencies`.
