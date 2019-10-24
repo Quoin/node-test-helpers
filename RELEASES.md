@@ -1,5 +1,9 @@
 # Releases
 
+## 1.0.4 - 2019-10-24
+
+- Updated dependencies versions.
+
 ## 1.0.3 - 2019-04-10
 
 - Update node version requirement.
