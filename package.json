@@ -1,6 +1,6 @@
 {
   "name": "@quoin/node-test-helpers",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0-rc.2",
   "description": "Test helpers library for nodeJS",
   "main": "lib/index.js",
   "publishConfig": {
@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/Quoin/node-test-helpers#readme",
   "dependencies": {
-    "@quoin/node-test-helpers-core": "1.0.x",
+    "@quoin/node-test-helpers-core": "^2.0.0-rc.1",
     "chai": "^4.3.4",
     "chai-http": "~4.3.0",
     "dirty-chai": "2.0.x",
