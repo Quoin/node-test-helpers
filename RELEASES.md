@@ -1,5 +1,9 @@
 # Releases
 
+## 2.0.0 - 2021-06-18
+
+- Avoid `-rc.*`.
+
 ## 2.0.0-rc.2 - 2021-06-17
 
 - Updated node-test-helpers-core
