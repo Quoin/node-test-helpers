@@ -1,5 +1,17 @@
 # Releases
 
+## 2.0.1 - 2021-06-21
+
+- Merging into master branch and latest tag.
+
+## 2.0.0 - 2021-06-18
+
+- Avoid `-rc.*`.
+
+## 2.0.0-rc.2 - 2021-06-17
+
+- Updated node-test-helpers-core
+
 ## 2.0.0-rc.1 - 2021-06-15
 
 - Updating packages and node@14
