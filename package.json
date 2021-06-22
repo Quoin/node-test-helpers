@@ -1,6 +1,6 @@
 {
   "name": "@quoin/node-test-helpers",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Test helpers library for nodeJS",
   "main": "lib/index.js",
   "publishConfig": {
@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/Quoin/node-test-helpers#readme",
   "dependencies": {
-    "@quoin/node-test-helpers-core": "^2.0.0",
+    "@quoin/node-test-helpers-core": "^2.0.1",
     "chai": "^4.3.4",
     "chai-http": "~4.3.0",
     "dirty-chai": "2.0.x",
@@ -48,8 +48,8 @@
     "sinon-chai": "^3.7.0"
   },
   "devDependencies": {
-    "@quoin/eslint-config-quoin": "^2.0.0",
-    "eslint": "^7.28.0",
+    "@quoin/eslint-config-quoin": "^2.0.2",
+    "eslint": "^7.29.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.4",
